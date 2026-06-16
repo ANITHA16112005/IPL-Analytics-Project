@@ -36,7 +36,7 @@ st.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("matches.csv")
+    df = pd.read_csv("data/matches.csv")
     return df
 
 df = load_data()
